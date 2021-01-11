@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+h1 { 	/* "nometag" per modificare tag */ 
+}
+
+.jumbotron{     /* ".nomeclasse" per modificare le classi */
+	color:blue;
+	background-color:black;
+}
+
+
+div h1{ 
+	position:absolute;   /*static,absolute,relative,fixed*/
+	width:600px;
+	height:200px;
+	border:3px solid red;
+	left:150px;
+}
+
+h3{
+	text.align:center;
+	border : 5px solid red; /*bordo:top,right,left,bottom*/
+	padding-top: 5px;   /* interno al bordo:top,right,left,bottom*/
+	margin-top: 20px;	/* esterno al bordo:top,right,left,bottom*/
+}
+
+
+
+article{
+	left:100px;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+/* "#nomeidentificativo" per modificare */
+#p1{			
+	font-weight : bold;
+	font-size=larger;
+	font-family:serif;
+}
+
+article+article{ /* il secondo tipo che ha un fratello come il primo*/
+	text-decoration: underline;
+}
+
+article+article{ /* il secondo tipo che ha un fratello come il primo*/
+	text-decoration: line-through;
+}
